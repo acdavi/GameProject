@@ -1,0 +1,56 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+// Custom bootstrap variables must be set or imported *before* bootstrap.
+@import "bootstrap";
+
+.devise{
+	/*margin-top: 13vh !important;*/
+  margin-right: 40vh;
+  margin-left: 40vh;
+	background-color: #00000099;
+	/*border-radius: 10px;*/
+	/*border: 3px solid #0a8bca;*/
+	color :#ffffff;
+}
+.card-header{
+	background-color: #010101;
+}
+
+.card-body{
+	background-color: #00000099;
+}
+
+.edit{
+  margin-top: 25vh !important;
+}
+.home{
+  margin-top: 13vh !important;
+  margin-right: 30vh;
+  margin-left: 30vh;
+  color:#ffffff;
+}
+
+body{
+  background-image: url("background.png");
+  background-size: cover;
+}
+.top{
+  margin-top: 5vh !important;
+  margin-right: 40vh;
+  margin-left: 40vh;
+  color:#ffffff;
+}
